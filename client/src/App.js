@@ -4,8 +4,6 @@ import io from 'socket.io-client';
 import Chat from './Chat';
 
 const socket = io.connect("http://localhost:3001");
-
-
 function App() {
   const [username, setUsername] = useState("");
   const [room, setRoom] = useState("");
